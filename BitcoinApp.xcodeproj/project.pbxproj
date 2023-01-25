@@ -64,7 +64,7 @@
 			children = (
 				5E6B6C9029816E7200F25B17 /* AppDelegate.swift */,
 				5E6B6C9229816E7200F25B17 /* SceneDelegate.swift */,
-				5E6B6CAE29818C9A00F25B17 /* Model */,
+				5E6B6CB129818D5900F25B17 /* Model */,
 				5E6B6CAF29818CA600F25B17 /* Controller */,
 				5E6B6CB029818CB200F25B17 /* View */,
 				5E6B6C9929816E7200F25B17 /* Assets.xcassets */,
@@ -73,15 +73,6 @@
 				5E6B6CA4298170CA00F25B17 /* bitcoin.png */,
 			);
 			path = BitcoinApp;
-			sourceTree = "<group>";
-		};
-		5E6B6CAE29818C9A00F25B17 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				5E6B6CA72981791B00F25B17 /* BitcoinMenager.swift */,
-				5E6B6CA929817A1200F25B17 /* BitcoinData.swift */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		5E6B6CAF29818CA600F25B17 /* Controller */ = {
@@ -98,6 +89,15 @@
 				5E6B6C9629816E7200F25B17 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5E6B6CB129818D5900F25B17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E6B6CA929817A1200F25B17 /* BitcoinData.swift */,
+				5E6B6CA72981791B00F25B17 /* BitcoinMenager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
